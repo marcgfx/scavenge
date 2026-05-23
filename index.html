@@ -3,39 +3,67 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Cham Scavenger Hunt</title>
+  <title>Scavenger Hunts</title>
+
   <style>
-    body { font-family: system-ui, sans-serif; margin:0; background:#f6f2e8; color:#222; }
-    main { max-width:680px; margin:auto; padding:22px; }
-    .card { background:white; border-radius:18px; padding:20px; box-shadow:0 8px 25px #0002; }
-    button { border:0; border-radius:12px; padding:12px 16px; font-weight:700; cursor:pointer; margin:4px; }
-    .primary { background:#2f7d52; color:white; }
-    .ghost { background:#eee; }
-    .ok { color:#2f7d52; font-weight:700; }
-    .bad { color:#b23b3b; font-weight:700; }
-    .small { color:#666; font-size:14px; }
+    body{
+      margin:0;
+      font-family:system-ui,sans-serif;
+      background:#f4f1e8;
+      color:#222;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      min-height:100vh;
+    }
+
+    .card{
+      background:white;
+      padding:32px;
+      border-radius:20px;
+      box-shadow:0 10px 30px rgba(0,0,0,.12);
+      text-align:center;
+      max-width:420px;
+    }
+
+    h1{
+      margin-top:0;
+    }
+
+    a.button{
+      display:inline-block;
+      margin-top:18px;
+      padding:14px 20px;
+      border-radius:14px;
+      background:#2f7d52;
+      color:white;
+      text-decoration:none;
+      font-weight:700;
+      transition:.15s transform ease;
+    }
+
+    a.button:hover{
+      transform:scale(1.04);
+    }
+
+    p{
+      color:#555;
+    }
   </style>
 </head>
 <body>
-  <main>
-    <h1>🕵️ Cham Treasure Trail</h1>
 
-    <div class="card" id="app">
-      <h2 id="title"></h2>
-      <p id="clue"></p>
-      <p><b>Mission:</b> <span id="task"></span></p>
-      <p id="status" class="small"></p>
+  <div class="card">
+    <h1>🕵️ Scavenger Hunts</h1>
 
-      <button class="primary" id="verifyBtn">I’m here — verify GPS</button>
-      <button class="ghost" id="hintBtn">Need a hint?</button>
+    <p>
+      Explore fun location-based treasure hunts.
+    </p>
 
-      <p class="small">
-        GPS works best outdoors. You must be within about <b id="radiusText"></b>.
-      </p>
-    </div>
-  </main>
+    <a class="button" href="cham.html">
+      Start Cham Hunt
+    </a>
+  </div>
 
-  <script src="verify.js"></script>
-  <script src="cham.js"></script>
 </body>
 </html>
