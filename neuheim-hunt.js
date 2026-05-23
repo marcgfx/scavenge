@@ -1,0 +1,42 @@
+startHunt({
+  id: "neuheim",
+  title: "🕵️ Neuheim Treasure Trail",
+  radiusMeters: 150,
+
+  intro: `
+    Welcome to the Neuheim Treasure Trail!
+    Find each location, solve the tiny mission, and verify your position with GPS.
+  `,
+
+  extro: `
+    🎉 Treasure found! You completed the Neuheim scavenger hunt.
+    Final challenge: celebrate with a group selfie.
+  `,
+
+  stops: [
+    {
+      title: "Stop 1: Dorfzentrum Neuheim",
+      clue: "Track down Dorfzentrum Neuheim in Neuheim.",
+      task: "Reach Dorfzentrum Neuheim and take a fun photo or note one interesting detail.",
+      hint: "Use your map and head toward Dorfzentrum Neuheim.",
+      lat: 47.2092,
+      lon: 8.5762
+    },
+    {
+      title: "Stop 2: Kirche Neuheim",
+      clue: "Track down Kirche Neuheim in Neuheim.",
+      task: "Reach Kirche Neuheim and take a fun photo or note one interesting detail.",
+      hint: "Use your map and head toward Kirche Neuheim.",
+      lat: 47.2071,
+      lon: 8.5796
+    },
+    {
+      title: "Stop 3: Waldweg Richtung Sihlbrugg",
+      clue: "Track down Waldweg Richtung Sihlbrugg in Neuheim.",
+      task: "Reach Waldweg Richtung Sihlbrugg and take a fun photo or note one interesting detail.",
+      hint: "Use your map and head toward Waldweg Richtung Sihlbrugg.",
+      lat: 47.2116,
+      lon: 8.5718
+    }
+  ]
+});
