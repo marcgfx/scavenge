@@ -70,3 +70,12 @@ a {
   background: #f7f7f7;
   border-radius: 12px;
 }
+
+
+.version-tag {
+  margin: 0 0 10px;
+  font-size: 12px;
+  color: #777;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
