@@ -4,41 +4,13 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Cham Scavenger Hunt</title>
-  <style>
-    body { font-family: system-ui, sans-serif; margin:0; background:#f6f2e8; color:#222; }
-    main { max-width:680px; margin:auto; padding:22px; }
-    .card { background:white; border-radius:18px; padding:20px; box-shadow:0 8px 25px #0002; }
-    button { border:0; border-radius:12px; padding:12px 16px; font-weight:700; cursor:pointer; margin:4px; }
-    .primary { background:#2f7d52; color:white; }
-    .ghost { background:#eee; }
-    .ok { color:#2f7d52; font-weight:700; }
-    .bad { color:#b23b3b; font-weight:700; }
-    .small { color:#666; font-size:14px; }
-    a { color:#2f7d52; font-weight:700; }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <main>
-    <p><a href="index.html">← Back to hunts</a></p>
-
-    <h1>🕵️ Cham Treasure Trail</h1>
-
-    <div class="card" id="app">
-      <h2 id="title"></h2>
-      <p id="clue"></p>
-      <p><b>Mission:</b> <span id="task"></span></p>
-      <p id="status" class="small"></p>
-
-      <button class="primary" id="verifyBtn">I’m here — verify GPS</button>
-      <button class="ghost" id="hintBtn">Need a hint?</button>
-
-      <p class="small">
-        GPS works best outdoors. You must be within about <b id="radiusText"></b>.
-      </p>
-    </div>
-  </main>
+  <main id="app"></main>
 
   <script src="verify.js"></script>
-  <script src="cham.js"></script>
+  <script src="hunt-engine.js"></script>
+  <script src="cham-hunt.js"></script>
 </body>
 </html>

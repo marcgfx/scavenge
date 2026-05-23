@@ -37,12 +37,9 @@ const Verify = {
   async check(target, radiusMeters) {
     const position = await this.getLocation();
 
-    const userLat = position.coords.latitude;
-    const userLon = position.coords.longitude;
-
     const distance = this.distanceMeters(
-      userLat,
-      userLon,
+      position.coords.latitude,
+      position.coords.longitude,
       target.lat,
       target.lon
     );
@@ -50,8 +47,8 @@ const Verify = {
     return {
       verified: distance <= radiusMeters,
       distance,
-      userLat,
-      userLon,
+      userLat: position.coords.latitude,
+      userLon: position.coords.longitude,
       accuracy: position.coords.accuracy
     };
   }
