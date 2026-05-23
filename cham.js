@@ -2,6 +2,12 @@ const RADIUS_METERS = 150;
 
 const stops = [
   {
+    title: "Test",
+    task:"test",
+    lat: 47.1854863,
+    lon: 8.4688053
+  },
+  {
     title: "Stop 1: The Green Giant",
     clue: "Find the beautiful park near the lake where old trees guard the view.",
     task: "Go to Villettepark and take a funny tree-selfie.",
