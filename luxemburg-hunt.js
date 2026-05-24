@@ -36,7 +36,22 @@ startHunt({
       task: "Reach the monument and count the nearby flagpoles.",
       hint: "Head to Place de la Constitution.",
       lat: 49.6099,
-      lon: 6.1275
+      lon: 6.1275,
+    {
+      title: "Stop 4: Grand-Ducal Viewpoint",
+      clue: "Track down Grand-Ducal Viewpoint in Grand-Ducal.",
+      task: "Reach Grand-Ducal Viewpoint and take a fun photo or note one interesting detail.",
+      hint: "Use your map and head toward Grand-Ducal Viewpoint.",
+      lat: 49.6114,
+      lon: 6.1290
+    },
+    {
+      title: "Stop 5: Grand-Ducal Old Town",
+      clue: "Track down Grand-Ducal Old Town in Grand-Ducal.",
+      task: "Reach Grand-Ducal Old Town and take a fun photo or note one interesting detail.",
+      hint: "Use your map and head toward Grand-Ducal Old Town.",
+      lat: 49.6129,
+      lon: 6.1305
     }
   ]
 });
