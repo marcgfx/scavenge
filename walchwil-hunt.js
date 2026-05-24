@@ -10,40 +10,40 @@ startHunt({
       "clue": "Start where the village meets the lake railway.",
       "task": "Find the station sign and pose like you just arrived in a mountain-lake mystery film.",
       "hint": "Begin outside Walchwil station.",
-      "lat": 47.1018,
-      "lon": 8.5192
+      "lat": 47.103,
+      "lon": 8.5292
     },
     {
       "title": "Stop 2: Seepromenade Walchwil",
       "clue": "Find the lakeside walking stretch below the village.",
       "task": "Capture a photo with the lake taking up more than half the image.",
       "hint": "Move toward the shore and promenade.",
-      "lat": 47.1014,
-      "lon": 8.5175
+      "lat": 47.1008,
+      "lon": 8.5303
     },
     {
       "title": "Stop 3: Kirche Walchwil",
       "clue": "Climb slightly into the village to find the church landmark.",
       "task": "From outside, find one detail that rewards looking upward.",
       "hint": "Look for the church tower above the lakeside area.",
-      "lat": 47.1029,
-      "lon": 8.5214
+      "lat": 47.1039,
+      "lon": 8.5249
     },
     {
       "title": "Stop 4: Village Viewpoint",
       "clue": "Find a spot where the slope gives you a wider look over water and roofs.",
       "task": "Name three things you can see at different heights.",
       "hint": "Stay on public paths uphill from the centre, toward the viewpoint side.",
-      "lat": 47.1002,
-      "lon": 8.5166
+      "lat": 47.1042,
+      "lon": 8.5255
     },
     {
       "title": "Stop 5: Lido / Lakeside Finish",
       "clue": "Finish back by the water where Walchwil feels most relaxed.",
       "task": "Make a final postcard caption in seven words or fewer.",
       "hint": "Head back toward the public lakeside / Lido area.",
-      "lat": 47.0987,
-      "lon": 8.5151
+      "lat": 47.1,
+      "lon": 8.532
     }
   ]
 });

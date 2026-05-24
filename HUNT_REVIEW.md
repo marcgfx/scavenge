@@ -38,3 +38,15 @@
 - Rewrote all `*-hunt.js` files.
 - Updated `index.html` copy and bumped version to `0.1.4`.
 - Updated the Luxembourg page title spelling while preserving the existing `luxemburg.html` filename.
+
+
+## 2026-05-24 Cham coordinate correction
+
+Cham was rechecked after the first two stops were reported as misplaced. The route now uses tighter coordinates for Bahnhof Cham, Villettepark, the Lorze footbridge / Hirsgarten entrance, Schloss St. Andreas, and Strandbad Seeweg. Stop 3 was renamed from a broad “Hirsgarten & Schiffsteg” label to the more precise “Lorze Footbridge / Hirsgarten Entrance” because the coordinate is anchored on the bridge crossing between Villettepark and Hirsgarten.
+
+
+## v0.1.6 coordinate update
+
+- Applied the user-provided approximate decimal-degree coordinates to all 78 hunt stops.
+- Replaced the Zug stop “Ufschötti” with “Rössliwiese / Vorstadtquai Finish”, because Ufschötti is in Lucerne and would send players to the wrong city.
+- The coordinates are now based on the supplied list, except the replacement Rössliwiese / Vorstadtquai point, which is anchored to the Zug public-place map reference.

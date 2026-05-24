@@ -10,40 +10,40 @@ startHunt({
       "clue": "Begin in the village centre before following the water story.",
       "task": "Find a public sign or small landmark and turn it into the title of a detective episode.",
       "hint": "Head for Dorfplatz Unterägeri.",
-      "lat": 47.1362,
-      "lon": 8.5848
+      "lat": 47.1325,
+      "lon": 8.59
     },
     {
       "title": "Stop 2: Ägerihalle Umgebung",
       "clue": "Find the public event area that gives the route a community stop.",
       "task": "Invent a festival name that would fit this place.",
       "hint": "Walk toward Ägerihalle and stay in public areas.",
-      "lat": 47.1384,
-      "lon": 8.5872
+      "lat": 47.132,
+      "lon": 8.5888
     },
     {
       "title": "Stop 3: Lorzeufer",
       "clue": "Find the river edge where flowing water becomes your guide.",
       "task": "Watch the water for 10 seconds and describe its movement with one verb.",
       "hint": "Head toward the Lorze river path.",
-      "lat": 47.1327,
-      "lon": 8.5808
+      "lat": 47.1345,
+      "lon": 8.5898
     },
     {
       "title": "Stop 4: Unterägeri Schiffsteg / Seeplatz",
       "clue": "Move from river mood to lake view.",
       "task": "Find the best reflection and decide whether it looks calm, broken, or mysterious.",
       "hint": "Walk toward the lake and boat landing area.",
-      "lat": 47.1342,
-      "lon": 8.5823
+      "lat": 47.1298,
+      "lon": 8.5913
     },
     {
       "title": "Stop 5: Badi / Lakeside Path",
       "clue": "Finish along the lakeside leisure stretch.",
       "task": "Take a victory photo that includes lake, sky, and shoreline.",
       "hint": "Continue along the public lakeside path toward the Badi/Lidostrasse side.",
-      "lat": 47.1357,
-      "lon": 8.5838
+      "lat": 47.1278,
+      "lon": 8.5925
     }
   ]
 });
