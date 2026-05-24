@@ -36,7 +36,22 @@ startHunt({
       task: "Reach Erlenpark and take a fun photo or note one interesting detail.",
       hint: "Use your map and head toward Erlenpark.",
       lat: 47.1993,
-      lon: 8.4816
+      lon: 8.4816,
+    {
+      title: "Stop 4: Steinhausen Viewpoint",
+      clue: "Track down Steinhausen Viewpoint in Steinhausen.",
+      task: "Reach Steinhausen Viewpoint and take a fun photo or note one interesting detail.",
+      hint: "Use your map and head toward Steinhausen Viewpoint.",
+      lat: 47.2008,
+      lon: 8.4831
+    },
+    {
+      title: "Stop 5: Steinhausen Old Town",
+      clue: "Track down Steinhausen Old Town in Steinhausen.",
+      task: "Reach Steinhausen Old Town and take a fun photo or note one interesting detail.",
+      hint: "Use your map and head toward Steinhausen Old Town.",
+      lat: 47.2023,
+      lon: 8.4846
     }
   ]
 });

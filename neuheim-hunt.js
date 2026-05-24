@@ -36,7 +36,22 @@ startHunt({
       task: "Reach Waldweg Richtung Sihlbrugg and take a fun photo or note one interesting detail.",
       hint: "Use your map and head toward Waldweg Richtung Sihlbrugg.",
       lat: 47.2116,
-      lon: 8.5718
+      lon: 8.5718,
+    {
+      title: "Stop 4: Neuheim Viewpoint",
+      clue: "Track down Neuheim Viewpoint in Neuheim.",
+      task: "Reach Neuheim Viewpoint and take a fun photo or note one interesting detail.",
+      hint: "Use your map and head toward Neuheim Viewpoint.",
+      lat: 47.2131,
+      lon: 8.5733
+    },
+    {
+      title: "Stop 5: Neuheim Old Town",
+      clue: "Track down Neuheim Old Town in Neuheim.",
+      task: "Reach Neuheim Old Town and take a fun photo or note one interesting detail.",
+      hint: "Use your map and head toward Neuheim Old Town.",
+      lat: 47.2146,
+      lon: 8.5748
     }
   ]
 });

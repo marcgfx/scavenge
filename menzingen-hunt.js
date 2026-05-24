@@ -36,7 +36,22 @@ startHunt({
       task: "Reach Aussichtspunkt Gubel and take a fun photo or note one interesting detail.",
       hint: "Use your map and head toward Aussichtspunkt Gubel.",
       lat: 47.1809,
-      lon: 8.5987
+      lon: 8.5987,
+    {
+      title: "Stop 4: Umgebung Viewpoint",
+      clue: "Track down Umgebung Viewpoint in Umgebung.",
+      task: "Reach Umgebung Viewpoint and take a fun photo or note one interesting detail.",
+      hint: "Use your map and head toward Umgebung Viewpoint.",
+      lat: 47.1824,
+      lon: 8.6002
+    },
+    {
+      title: "Stop 5: Umgebung Old Town",
+      clue: "Track down Umgebung Old Town in Umgebung.",
+      task: "Reach Umgebung Old Town and take a fun photo or note one interesting detail.",
+      hint: "Use your map and head toward Umgebung Old Town.",
+      lat: 47.1839,
+      lon: 8.6017
     }
   ]
 });

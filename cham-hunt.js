@@ -36,7 +36,22 @@ startHunt({
       task: "Reach the public path near Schloss St. Andreas. Do not enter private areas.",
       hint: "Continue east along the lakeside toward the castle area.",
       lat: 47.17875,
-      lon: 8.46625
+      lon: 8.46625,
+    {
+      title: "Stop 4: Giant Viewpoint",
+      clue: "Track down Giant Viewpoint in Giant.",
+      task: "Reach Giant Viewpoint and take a fun photo or note one interesting detail.",
+      hint: "Use your map and head toward Giant Viewpoint.",
+      lat: 47.1803,
+      lon: 8.4678
+    },
+    {
+      title: "Stop 5: Giant Old Town",
+      clue: "Track down Giant Old Town in Giant.",
+      task: "Reach Giant Old Town and take a fun photo or note one interesting detail.",
+      hint: "Use your map and head toward Giant Old Town.",
+      lat: 47.1818,
+      lon: 8.4693
     }
   ]
 });

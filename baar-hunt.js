@@ -36,7 +36,22 @@ startHunt({
       task: "Reach Bahnhof Baar and take a fun photo or note one interesting detail.",
       hint: "Use your map and head toward Bahnhof Baar.",
       lat: 47.1948,
-      lon: 8.5259
+      lon: 8.5259,
+    {
+      title: "Stop 4: Martinspark Viewpoint",
+      clue: "Track down Martinspark Viewpoint in Martinspark.",
+      task: "Reach Martinspark Viewpoint and take a fun photo or note one interesting detail.",
+      hint: "Use your map and head toward Martinspark Viewpoint.",
+      lat: 47.1963,
+      lon: 8.5274
+    },
+    {
+      title: "Stop 5: Martinspark Old Town",
+      clue: "Track down Martinspark Old Town in Martinspark.",
+      task: "Reach Martinspark Old Town and take a fun photo or note one interesting detail.",
+      hint: "Use your map and head toward Martinspark Old Town.",
+      lat: 47.1978,
+      lon: 8.5289
     }
   ]
 });

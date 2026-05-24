@@ -36,7 +36,22 @@ startHunt({
       task: "Reach the garden viewpoint and take a skyline photo.",
       hint: "Look for the gardens between the Royal Library and the city center.",
       lat: 50.8442,
-      lon: 4.3561
+      lon: 4.3561,
+    {
+      title: "Stop 4: Place Viewpoint",
+      clue: "Track down Place Viewpoint in Place.",
+      task: "Reach Place Viewpoint and take a fun photo or note one interesting detail.",
+      hint: "Use your map and head toward Place Viewpoint.",
+      lat: 50.8457,
+      lon: 4.3576
+    },
+    {
+      title: "Stop 5: Place Old Town",
+      clue: "Track down Place Old Town in Place.",
+      task: "Reach Place Old Town and take a fun photo or note one interesting detail.",
+      hint: "Use your map and head toward Place Old Town.",
+      lat: 50.8472,
+      lon: 4.3591
     }
   ]
 });

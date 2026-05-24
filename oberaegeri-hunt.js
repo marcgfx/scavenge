@@ -36,7 +36,22 @@ startHunt({
       task: "Reach Ländliweg and take a fun photo or note one interesting detail.",
       hint: "Use your map and head toward Ländliweg.",
       lat: 47.1405,
-      lon: 8.6077
+      lon: 8.6077,
+    {
+      title: "Stop 4: Oberägeri Viewpoint",
+      clue: "Track down Oberägeri Viewpoint in Oberägeri.",
+      task: "Reach Oberägeri Viewpoint and take a fun photo or note one interesting detail.",
+      hint: "Use your map and head toward Oberägeri Viewpoint.",
+      lat: 47.1420,
+      lon: 8.6092
+    },
+    {
+      title: "Stop 5: Oberägeri Old Town",
+      clue: "Track down Oberägeri Old Town in Oberägeri.",
+      task: "Reach Oberägeri Old Town and take a fun photo or note one interesting detail.",
+      hint: "Use your map and head toward Oberägeri Old Town.",
+      lat: 47.1435,
+      lon: 8.6107
     }
   ]
 });

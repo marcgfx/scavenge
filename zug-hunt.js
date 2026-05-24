@@ -36,7 +36,22 @@ startHunt({
       task: "Reach Seepromenade Zug and take a fun photo or note one interesting detail.",
       hint: "Use your map and head toward Seepromenade Zug.",
       lat: 47.1701,
-      lon: 8.5216
+      lon: 8.5216,
+    {
+      title: "Stop 4: Altstadt Viewpoint",
+      clue: "Track down Altstadt Viewpoint in Altstadt.",
+      task: "Reach Altstadt Viewpoint and take a fun photo or note one interesting detail.",
+      hint: "Use your map and head toward Altstadt Viewpoint.",
+      lat: 47.1716,
+      lon: 8.5231
+    },
+    {
+      title: "Stop 5: Altstadt Old Town",
+      clue: "Track down Altstadt Old Town in Altstadt.",
+      task: "Reach Altstadt Old Town and take a fun photo or note one interesting detail.",
+      hint: "Use your map and head toward Altstadt Old Town.",
+      lat: 47.1731,
+      lon: 8.5246
     }
   ]
 });

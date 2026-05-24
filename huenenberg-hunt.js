@@ -36,7 +36,22 @@ startHunt({
       task: "Reach Reussuferweg and take a fun photo or note one interesting detail.",
       hint: "Use your map and head toward Reussuferweg.",
       lat: 47.1824,
-      lon: 8.4346
+      lon: 8.4346,
+    {
+      title: "Stop 4: Eichmatt Viewpoint",
+      clue: "Track down Eichmatt Viewpoint in Eichmatt.",
+      task: "Reach Eichmatt Viewpoint and take a fun photo or note one interesting detail.",
+      hint: "Use your map and head toward Eichmatt Viewpoint.",
+      lat: 47.1839,
+      lon: 8.4361
+    },
+    {
+      title: "Stop 5: Eichmatt Old Town",
+      clue: "Track down Eichmatt Old Town in Eichmatt.",
+      task: "Reach Eichmatt Old Town and take a fun photo or note one interesting detail.",
+      hint: "Use your map and head toward Eichmatt Old Town.",
+      lat: 47.1854,
+      lon: 8.4376
     }
   ]
 });

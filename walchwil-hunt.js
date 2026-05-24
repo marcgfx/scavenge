@@ -36,7 +36,22 @@ startHunt({
       task: "Reach Aussichtspunkt Lido and take a fun photo or note one interesting detail.",
       hint: "Use your map and head toward Aussichtspunkt Lido.",
       lat: 47.0987,
-      lon: 8.5151
+      lon: 8.5151,
+    {
+      title: "Stop 4: Walchwil Viewpoint",
+      clue: "Track down Walchwil Viewpoint in Walchwil.",
+      task: "Reach Walchwil Viewpoint and take a fun photo or note one interesting detail.",
+      hint: "Use your map and head toward Walchwil Viewpoint.",
+      lat: 47.1002,
+      lon: 8.5166
+    },
+    {
+      title: "Stop 5: Walchwil Old Town",
+      clue: "Track down Walchwil Old Town in Walchwil.",
+      task: "Reach Walchwil Old Town and take a fun photo or note one interesting detail.",
+      hint: "Use your map and head toward Walchwil Old Town.",
+      lat: 47.1017,
+      lon: 8.5181
     }
   ]
 });

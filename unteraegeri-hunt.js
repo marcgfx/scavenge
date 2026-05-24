@@ -36,7 +36,22 @@ startHunt({
       task: "Reach Lorzeufer and take a fun photo or note one interesting detail.",
       hint: "Use your map and head toward Lorzeufer.",
       lat: 47.1327,
-      lon: 8.5808
+      lon: 8.5808,
+    {
+      title: "Stop 4: Unterägeri Viewpoint",
+      clue: "Track down Unterägeri Viewpoint in Unterägeri.",
+      task: "Reach Unterägeri Viewpoint and take a fun photo or note one interesting detail.",
+      hint: "Use your map and head toward Unterägeri Viewpoint.",
+      lat: 47.1342,
+      lon: 8.5823
+    },
+    {
+      title: "Stop 5: Unterägeri Old Town",
+      clue: "Track down Unterägeri Old Town in Unterägeri.",
+      task: "Reach Unterägeri Old Town and take a fun photo or note one interesting detail.",
+      hint: "Use your map and head toward Unterägeri Old Town.",
+      lat: 47.1357,
+      lon: 8.5838
     }
   ]
 });
