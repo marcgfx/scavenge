@@ -3,6 +3,7 @@ function startHunt(config) {
   const storageKey = `hunt_${config.id}`;
 
   let state = loadState();
+  let pendingReveal = null;
 
   render();
 
@@ -19,6 +20,11 @@ function startHunt(config) {
   }
 
   function render() {
+    if (pendingReveal) {
+      renderRevealCard();
+      return;
+    }
+
     if (state.current >= config.stops.length) {
       app.innerHTML = `
         <p><a href="index.html">← Back to hunts</a></p>
@@ -91,7 +97,8 @@ function startHunt(config) {
           GPS accuracy: about ${accuracy}m.
         `;
 
-        setTimeout(render, 800);
+        pendingReveal = createRevealData(stop, state.hintUsed ? "hint" : "clean");
+        render();
       } else {
         status.innerHTML = `
           <span class="bad">❌ Not verified yet.</span><br>
@@ -139,8 +146,50 @@ function startHunt(config) {
   function skipStop() {
     if (!confirm("Skip this stop? It will be marked red.")) return;
 
+    const stop = config.stops[state.current];
     completeStop("skipped");
+    pendingReveal = createRevealData(stop, "skipped");
     render();
+  }
+
+  function createRevealData(stop, result) {
+    return {
+      title: stop.title,
+      lat: stop.lat,
+      lon: stop.lon,
+      result
+    };
+  }
+
+  function renderRevealCard() {
+    const mapUrl = `https://maps.google.com/maps?q=${pendingReveal.lat},${pendingReveal.lon}&z=16&output=embed`;
+
+    app.innerHTML = `
+      <p><a href="index.html">← Back to hunts</a></p>
+      <h1>${config.title}</h1>
+      <div class="card">
+        <h2>${getResultIcon(pendingReveal.result)} ${pendingReveal.title}</h2>
+        <p>You completed this task. Here is the exact location on Google Maps:</p>
+        <iframe
+          title="Stop location map"
+          src="${mapUrl}"
+          width="100%"
+          height="280"
+          style="border:0; border-radius: 8px;"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          allowfullscreen>
+        </iframe>
+        <p class="small">Press next to continue to the following task.</p>
+        <button class="primary" id="nextTaskBtn">Next task</button>
+        ${renderAccomplishedHtml()}
+      </div>
+    `;
+
+    document.getElementById("nextTaskBtn").addEventListener("click", () => {
+      pendingReveal = null;
+      render();
+    });
   }
 
   function renderAccomplishedHtml() {
