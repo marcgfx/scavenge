@@ -1,57 +1,49 @@
 startHunt({
-  id: "menzingen",
-  title: "🕵️ Menzingen Treasure Trail",
-  radiusMeters: 150,
-
-  intro: `
-    Welcome to the Menzingen Treasure Trail!
-    Find each location, solve the tiny mission, and verify your position with GPS.
-  `,
-
-  extro: `
-    🎉 Treasure found! You completed the Menzingen scavenger hunt.
-    Final challenge: celebrate with a group selfie.
-  `,
-
-  stops: [
+  "id": "menzingen",
+  "title": "🕵️ Menzingen Hills & Gubel Trail",
+  "radiusMeters": 230,
+  "intro": "Welcome to the Menzingen Hills & Gubel Trail! It starts in the village and climbs toward viewpoints and quiet religious landmarks, so expect a more hilly walk.",
+  "extro": "🎉 Treasure found! You completed the Menzingen trail. Final challenge: choose the best view and name it like a fantasy map location.",
+  "stops": [
     {
-      title: "Stop 1: Kloster Menzingen Umgebung",
-      clue: "Track down Kloster Menzingen Umgebung in Menzingen.",
-      task: "Reach Kloster Menzingen Umgebung and take a fun photo or note one interesting detail.",
-      hint: "Use your map and head toward Kloster Menzingen Umgebung.",
-      lat: 47.1768,
-      lon: 8.5921
+      "title": "Stop 1: Dorfplatz Menzingen",
+      "clue": "Begin in the village centre before the route heads into the hills.",
+      "task": "Find a village sign, fountain, or noticeboard and write a fake quest notice for it.",
+      "hint": "Head to central Menzingen near the village square.",
+      "lat": 47.1779,
+      "lon": 8.5948
     },
     {
-      title: "Stop 2: Dorfplatz Menzingen",
-      clue: "Track down Dorfplatz Menzingen in Menzingen.",
-      task: "Reach Dorfplatz Menzingen and take a fun photo or note one interesting detail.",
-      hint: "Use your map and head toward Dorfplatz Menzingen.",
-      lat: 47.1779,
-      lon: 8.5948
+      "title": "Stop 2: Kloster Menzingen Umgebung",
+      "clue": "Find the quiet institutional landmark near the village.",
+      "task": "Without disturbing anyone, find one symmetrical feature in the building or grounds.",
+      "hint": "Walk toward the Kloster Menzingen area and stay in public spaces.",
+      "lat": 47.1768,
+      "lon": 8.5921
     },
     {
-      title: "Stop 3: Aussichtspunkt Gubel",
-      clue: "Track down Aussichtspunkt Gubel in Menzingen.",
-      task: "Reach Aussichtspunkt Gubel and take a fun photo or note one interesting detail.",
-      hint: "Use your map and head toward Aussichtspunkt Gubel.",
-      lat: 47.1809,
-      lon: 8.5987,
-    {
-      title: "Stop 4: Umgebung Viewpoint",
-      clue: "Track down Umgebung Viewpoint in Umgebung.",
-      task: "Reach Umgebung Viewpoint and take a fun photo or note one interesting detail.",
-      hint: "Use your map and head toward Umgebung Viewpoint.",
-      lat: 47.1824,
-      lon: 8.6002
+      "title": "Stop 3: Lassalle-Haus / Park Edge",
+      "clue": "Move toward a peaceful park-like place known for reflection and old trees.",
+      "task": "Find the biggest tree you can see from the public area and describe it like a character.",
+      "hint": "Head toward the Lassalle-Haus area; remain on public paths.",
+      "lat": 47.1798,
+      "lon": 8.5865
     },
     {
-      title: "Stop 5: Umgebung Old Town",
-      clue: "Track down Umgebung Old Town in Umgebung.",
-      task: "Reach Umgebung Old Town and take a fun photo or note one interesting detail.",
-      hint: "Use your map and head toward Umgebung Old Town.",
-      lat: 47.1839,
-      lon: 8.6017
+      "title": "Stop 4: Gubel Viewpoint",
+      "clue": "Climb toward the hill where the landscape opens wide.",
+      "task": "Take a panorama photo or name three layers of the view: near, middle, far.",
+      "hint": "Follow directions toward Gubel / Aussichtspunkt Gubel.",
+      "lat": 47.1809,
+      "lon": 8.5987
+    },
+    {
+      "title": "Stop 5: Kloster Maria Hilf Gubel",
+      "clue": "Finish near the hilltop monastery area.",
+      "task": "Find a quiet viewpoint or public sign and choose one word that fits the mood of the place.",
+      "hint": "Continue on public paths toward Kloster Maria Hilf on the Gubel.",
+      "lat": 47.1826,
+      "lon": 8.6014
     }
   ]
 });

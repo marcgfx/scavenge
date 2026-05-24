@@ -1,57 +1,49 @@
 startHunt({
-  id: "steinhausen",
-  title: "🕵️ Steinhausen Treasure Trail",
-  radiusMeters: 150,
-
-  intro: `
-    Welcome to the Steinhausen Treasure Trail!
-    Find each location, solve the tiny mission, and verify your position with GPS.
-  `,
-
-  extro: `
-    🎉 Treasure found! You completed the Steinhausen scavenger hunt.
-    Final challenge: celebrate with a group selfie.
-  `,
-
-  stops: [
+  "id": "steinhausen",
+  "title": "🕵️ Steinhausen Centre & Green Trail",
+  "radiusMeters": 180,
+  "intro": "Welcome to the Steinhausen Centre & Green Trail! A compact route from station/centre to church and park, with short legs and varied village scenes.",
+  "extro": "🎉 Treasure found! You completed the Steinhausen trail. Final challenge: take a team photo with your favourite quiet corner.",
+  "stops": [
     {
-      title: "Stop 1: Dorfplatz Steinhausen",
-      clue: "Track down Dorfplatz Steinhausen in Steinhausen.",
-      task: "Reach Dorfplatz Steinhausen and take a fun photo or note one interesting detail.",
-      hint: "Use your map and head toward Dorfplatz Steinhausen.",
-      lat: 47.1962,
-      lon: 8.4861
+      "title": "Stop 1: Bahnhof Steinhausen",
+      "clue": "Start at the rail-side entrance to Steinhausen.",
+      "task": "Find a sign or timetable and create a fake train destination for your treasure team.",
+      "hint": "Begin outside Steinhausen station.",
+      "lat": 47.1937,
+      "lon": 8.4851
     },
     {
-      title: "Stop 2: Kirche Steinhausen",
-      clue: "Track down Kirche Steinhausen in Steinhausen.",
-      task: "Reach Kirche Steinhausen and take a fun photo or note one interesting detail.",
-      hint: "Use your map and head toward Kirche Steinhausen.",
-      lat: 47.1947,
-      lon: 8.4885
+      "title": "Stop 2: Dorfplatz Steinhausen",
+      "clue": "Find the central square / village meeting area.",
+      "task": "Find the object that feels most like the centre of the place and explain why.",
+      "hint": "Walk toward central Steinhausen and Dorfplatz.",
+      "lat": 47.1962,
+      "lon": 8.4861
     },
     {
-      title: "Stop 3: Erlenpark",
-      clue: "Track down Erlenpark in Steinhausen.",
-      task: "Reach Erlenpark and take a fun photo or note one interesting detail.",
-      hint: "Use your map and head toward Erlenpark.",
-      lat: 47.1993,
-      lon: 8.4816,
-    {
-      title: "Stop 4: Steinhausen Viewpoint",
-      clue: "Track down Steinhausen Viewpoint in Steinhausen.",
-      task: "Reach Steinhausen Viewpoint and take a fun photo or note one interesting detail.",
-      hint: "Use your map and head toward Steinhausen Viewpoint.",
-      lat: 47.2008,
-      lon: 8.4831
+      "title": "Stop 3: Kirche Steinhausen",
+      "clue": "Find the church landmark near the centre.",
+      "task": "From outside, spot one repeated shape and count it as far as you can without moving too much.",
+      "hint": "Look for the church tower near the centre.",
+      "lat": 47.1947,
+      "lon": 8.4885
     },
     {
-      title: "Stop 5: Steinhausen Old Town",
-      clue: "Track down Steinhausen Old Town in Steinhausen.",
-      task: "Reach Steinhausen Old Town and take a fun photo or note one interesting detail.",
-      hint: "Use your map and head toward Steinhausen Old Town.",
-      lat: 47.2023,
-      lon: 8.4846
+      "title": "Stop 4: Gemeindesaal / Zentrum",
+      "clue": "Find a public community-building area where events could happen.",
+      "task": "Imagine an event poster for this place and invent a three-word title.",
+      "hint": "Stay around the public centre/community hall area.",
+      "lat": 47.1968,
+      "lon": 8.4874
+    },
+    {
+      "title": "Stop 5: Erlenpark",
+      "clue": "Finish in a greener corner of Steinhausen.",
+      "task": "Take a photo that includes one living thing and one built thing.",
+      "hint": "Head toward Erlenpark and the quieter green area.",
+      "lat": 47.1993,
+      "lon": 8.4816
     }
   ]
 });
